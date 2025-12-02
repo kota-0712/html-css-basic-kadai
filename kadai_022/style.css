@@ -1,90 +1,86 @@
-h1{
-    margin: 0px;
-    width: auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
+h1 {
+  margin: 0px;
+  width: auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
-p{
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
+p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
 }
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, sans-serif;
 }
-a{
-    font-size:20px;
+a {
+  font-size: 20px;
 }
-header{
-     padding-bottom: 20px;
-     margin-bottom: 20px;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: rgb(244, 79, 79 );
+header {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(244, 79, 79);
 }
-main{
-    margin: 10px;
-
+main {
+  margin: 10px 10px 10px 10px;
 }
-#parent{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.content{ 
-    flex-basis: 25%;
-    padding: 10px 15px;
-    margin: 20px 0;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border: 3px solid rgb(238, 204, 204)
-} 
-
-
-h2{ font-size: 25px;
-     border-bottom:3px dotted rgb(236, 122, 122)
-
-}
-h2::before{
-    content: "⚫︎";
-    color: rgb(239, 111, 139);
-    
+#parent {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
-div p:nth-of-type(2)::first-letter{ 
-    color: rgb(97, 206, 249);
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0px 10px 0px;
-    width: 70%;
+.content {
+  flex-basis: 25%;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 0px 20px 0px;
+  margin: auto;
+  border: 3px solid rgb(238, 204, 204);
 }
-.content img{
-    margin: 10px 0;
-    width: 70%;
+
+h2 {
+  font-size: 25px;
+  border-bottom: 3px dotted rgb(236, 122, 122);
 }
-footer{
-    background-color: rgb(255, 255, 255);
-    margin: auto;
+h2::before {
+  content: "⚫︎";
+  color: rgb(239, 111, 139);
 }
-a:link{
-    color:rgb(255, 255, 255) ;
+
+div p:nth-of-type(2)::first-letter {
+  color: rgb(97, 206, 249);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+  width: 70%;
 }
-a:valid{
-    color:rgb(193, 234, 251) ;
+.content img {
+  margin: 10px 0;
+  width: 70%;
 }
-a:hover{
-    color:rgb(245, 178, 168);
+footer {
+  background-color: rgb(244, 79, 79);
+  margin: auto;
 }
-div{display: inline-block
+a:link {
+  color: rgb(255, 255, 255);
+}
+a:valid {
+  color: rgb(193, 234, 251);
+}
+a:hover {
+  color: rgb(245, 178, 168);
+}
+div {
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
-     
-    }
+}
 
 .flexbox-container {
-    display: flex;
-    flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
